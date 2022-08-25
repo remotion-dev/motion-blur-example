@@ -2,12 +2,17 @@
 
 Credits to @UmungoBungo for inventing this technique!
 
+https://user-images.githubusercontent.com/1629785/186599479-d459877f-0f4d-4953-a615-0a703582e92c.mp4
+
 A demo showing how to achieve motion blur in Remotion.  
 The technique renders the previous frame at a lower opacity multiple times to create a blur effect.
 
 For this technique to work, the element must be wrapped in an [`<AbsoluteFill>`](https://remotion.dev/docs/absolute-fill) so the previous frames can be layered under the original.
 
 Motion blur can be added to any element by wrapping it in `<MotionBlur>`:
+
+
+
 
 ```tsx
 import React from 'react';
